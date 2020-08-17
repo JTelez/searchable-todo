@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.css">
+    <link href="style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1 class="center-align">To-Do List</h1>
+        <p class="center-align">No local storage functionality. Refreshing page will reset list.</h6>
+        <div class="input-field">
+            <div class="add">
+                <i class="material-icons prefix">mode_edit</i>
+            </div>
+            <input type="text" id="addItem" placeholder="Enter to-do list item here">
+            <div class="search">
+                <i class="material-icons prefix">search</i>
+            </div>
+            <input type="text" id="filterInput" placeholder="Search to-do list">
+        </div>
+        <ul id="todo-items" class="collection">
+        </ul>
+    </div>
+    <script src="/searchable-todo/script.js"></script>
+</body>
+</html>

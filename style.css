@@ -1,0 +1,41 @@
+* {
+    font-family: "Roboto";
+}
+
+.collection-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+input:focus {
+    border-bottom: 1px solid #2196f3 !important;
+    box-shadow: 0 1px 0 0 #2196f3 !important;
+}
+
+.collection-item.active {
+    transition: 0.15s; 
+    background-color: #2196f3 !important;
+}
+
+#addItem {
+    width: 50%;
+}
+
+#filterInput {
+    width: 30%;
+}
+
+.input-field {
+    display: flex;
+    justify-content: space-around;
+}
+
+#checkItem {
+    margin-right: 20px;
+}
+
+.add, .search {
+    margin-right: 20px;
+}
+
