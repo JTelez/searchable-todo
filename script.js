@@ -66,7 +66,7 @@ function addToDo() {
 
 //Handle task input event
 addItem.addEventListener("keyup", function(event) {
-    if (event.code === "Enter") {
+    if (event.keyCode == 13) {
         addToDo();
         this.value = "";
     }
